@@ -1,0 +1,19 @@
+site_name: RF SFA
+site_description: Documentação RF SFA - Sales Force Automation.
+site_author: RF Solution IT
+
+#repo_url: https://github.com/rfsolutionit/sfa
+edit_uri: ""
+
+nav:
+  - Home: index.md
+  - Básico: basico.md    
+  - Cadastros: cadastros.md
+  - Tarefas: tarefas.md  
+  - Consultas: consultas.md  
+  - Sobre:
+    - Releases Notes: releases.md
+theme: flatly
+
+extra_css:
+    - css/extra.css
