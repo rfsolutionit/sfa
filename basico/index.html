@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="RF Solution IT">
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Básico - RF SFA</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/docco.min.css">
+        <link href="../css/extra.css" rel="stylesheet">
+
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">RF SFA</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href=".." class="nav-link">Home</a>
+                            </li>
+                            <li class="navitem active">
+                                <a href="./" class="nav-link">Básico</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../cadastros/" class="nav-link">Cadastros</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../tarefas/" class="nav-link">Tarefas</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../consultas/" class="nav-link">Consultas</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Sobre <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../releases/" class="dropdown-item">Releases Notes</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href=".." class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../cadastros/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#basico" class="nav-link">Básico</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#usuarios" class="nav-link">Usuários</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#configuracao-sistema" class="nav-link">Configuração Sistema</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#estabelecimento" class="nav-link">Estabelecimento</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#representantes" class="nav-link">Representantes</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#produtos" class="nav-link">Produtos</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#regioes" class="nav-link">Regiões</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#feriados" class="nav-link">Feriados</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#slide-show" class="nav-link">Slide Show</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="basico">Básico</h1>
+<h2 id="usuarios">Usuários</h2>
+<p>Essa função tem como caracteristica cadastrar, alterar ou inativar usuários.</p>
+<p><img alt="" src="../img/basico/img1.png" title="Cadastro usuário" /></p>
+<p><strong>Principais Campos e Parâmetros:</strong></p>
+<ul>
+<li><code>Nome</code> - Permite inserir o nome do usuário.</li>
+<li><code>Sobrenome</code> - Permite inserir o sobrenome do usuário.</li>
+<li><code>Login</code> - Permite inserir o login do usuário.</li>
+<li><code>Senha</code> - Permite inserir a senha do usuário.</li>
+<li><code>E-mail</code> - Permite inserir o e-mail do usuário.</li>
+<li><code>Representante</code> - Permite selecionar o representante vinculado ao usuário, para implantação de pedidos;</li>
+<li><code>Usuário inativo</code> - Permite inativar o usuário.</li>
+<li><code>Aprovador</code> - Permite marcar se o usuário é aprovador de cadastros de novos clientes.</li>
+<li><code>Analista de Crédito</code> - Permite marcar se o usuário é analista de crédito para cadastro de novos clientes.</li>
+<li><code>Supervisor</code> - Permite marcar se o usuário é um supervisor de vendas. Ao selecionar esta opção será possivel relacionar as regiões que o supervisor poderá consultar informações.</li>
+<li><code>Envia E-Mail</code> - Permite marcar se o usuário envia e-mail automáticamente de pedidos de venda para os clientes, ou solicitação de cadastro de usuário.</li>
+<li>
+<p><code>Permissões</code> - Permite selecionar as permissões que o usuário possuirá. </p>
+</li>
+<li>
+<p>Permissões Cadastros Básico:</p>
+<ul>
+<li>Usuários</li>
+<li>Estabelecimento</li>
+<li>Produtos</li>
+<li>Feriados</li>
+<li>Configuração Sistema</li>
+<li>Representantes</li>
+<li>Regiões</li>
+<li>Slide Show</li>
+</ul>
+</li>
+<li>Permissões Vendas:<ul>
+<li>Cadastro Clietes</li>
+<li>Digitação de Pedidos</li>
+<li>Consulta Pedidos</li>
+<li>Acompanhamento Metas</li>
+<li>Consulta Notas Fiscais</li>
+<li>Integrar Clientes</li>
+<li>Consulta Clientes</li>
+<li>Acompanhamento Vendas</li>
+<li>Pendências Financeiras    </li>
+</ul>
+</li>
+<li>Permissões Regiões:<ul>
+<li>Na opção Regiões, possibilita o usuário selecionar as regiões que o usuário irá ter permissões.</li>
+</ul>
+</li>
+<li>Mensagem Reprovação:<ul>
+<li>Permite informar uma mensagem padrão para reprovação de clientes para ser enviada ao representante.</li>
+</ul>
+</li>
+</ul>
+<h2 id="configuracao-sistema">Configuração Sistema</h2>
+<p>Cadastrar Informações da empresa e configuração de envio de e-mail do sistema.</p>
+<p><img alt="" src="../img/basico/img2.png" /></p>
+<p><img alt="" src="../img/basico/img3.png" /></p>
+<p><strong>Parâmetros de Conexão</strong></p>
+<ul>
+<li><code>Endereço do Servidor</code> - IP do servidor de envio de e-mail.</li>
+<li><code>Porta de Conexão</code> - Porta do servidor de envio de e-mail.</li>
+<li><code>E-mail da Empresa</code> - E-mail que será feito o envio. </li>
+<li><code>Senha</code> - Senha do e-mail parametrizado.</li>
+<li><code>Servidor requer autenticação?</code> - Marcar o flag caso o servidor de e-mail for obrigatório autenticação.</li>
+<li><code>Servidor requer TLS?</code> - Marcar o flag caso o servidor de e-mail utilizar TLS.</li>
+</ul>
+<h2 id="estabelecimento">Estabelecimento</h2>
+<p>Cadastro de estabelecimentos e parametrizações.</p>
+<p><img alt="" src="../img/basico/img4.png" /></p>
+<p><strong>Principais Campos e Parâmetros:</strong></p>
+<ul>
+<li><code>Código</code> - Código do estabelecimento.</li>
+<li><code>Nome</code> - Nome do estabelecimento.</li>
+<li><code>Dias Min Entrega</code> - Número mínimo de dias para entrega.</li>
+<li><code>Dias Max Entrega</code> - Número máximo de dias para entrega.</li>
+<li><code>Valor Mínimo Pedido</code> - Valor total mínimo dos pedidos digitados.</li>
+<li><code>Valor Mínimo Parcela</code> - Valor mínimo da parcela do pedido.</li>
+<li><code>Envia E-mail Cliente</code> - Caso marcado, os clientes do sistema poderão receber e-mails de notificações de pedidos. </li>
+<li><code>E-mails Workflow</code> - E-mails da equipe do comercial da empresa, na qual receberão solicitações em sua caixa de e-mails, para liberação de clientes para os representantes no sistema. (Separado por ponto e vírgula, caso tiver mais de um)</li>
+<li><code>E-mails Solicitação Cli x Rep</code> -  E-mails da equipe do comercial da empresa, na qual receberão solicitações em sua caixa de e-mails sobre solicitações de novos clientes para os representantes no sistema. (Separado por ponto e vírgula, caso tiver mais de um)</li>
+<li><code>Param Integração</code> - Token de acesso para sistema externo. </li>
+<li><code>Valida Dt Sinc</code> - Caso marcado, o sistema irá validar a data de sincronização do pedido, não permitindo sincronizar pedidos com datas anteriores a atual.</li>
+<li><code>Não Entrega</code> - Ao marcar o flag será restringido o dia da semana marcado para que o representante não consiga sincronizar o pedido em tal data de entrega no portal. </li>
+</ul>
+<h2 id="representantes">Representantes</h2>
+<p>Cadastro de representantes e parametrizações.</p>
+<p><img alt="" src="../img/basico/img5.png" /></p>
+<p><strong>Principais Campos e Parâmetros:</strong></p>
+<ul>
+<li><code>Edita Preço Unitário</code> - Ao marcar o representante irá conseguir alterar o preço do item no momento da digitação do pedido.</li>
+<li><code>Edita Tabela Preço</code> - Ao marcar o representante irá conseguir alterar qual tabela de preço ele quer usar para o pedido digitado.</li>
+<li><code>Edita Cond. Pagto</code> - Ao marcar o representante irá conseguir alterar qual condição de pagamento ele quer usar para o pedido digitado.</li>
+<li><code>Edita Forma Pagto</code> - Ao marcar o representante irá conseguir alterar qual forma de pagamento ele quer usar para o pedido digitado.</li>
+<li><code>Edita Tipo Frete</code> - Ao marcar o representante irá conseguir alterar o tipo de frete do pedido digitado se será CIF ou FOB.</li>
+</ul>
+<p><strong>Obs:</strong> Caso desmarcado essas opções o pedido buscará as informações de acordo com o cliente selecionado na digitação do pedido.</p>
+<p>Na aba <strong>Tipo Operações</strong> abaixo, o usuário conseguirá selecionar as operações permitidas para o representante digitar o pedido.  </p>
+<p><img alt="" src="../img/basico/img6.png" /></p>
+<h2 id="produtos">Produtos</h2>
+<p>Cadastro de produtos, é permitido anexar imagem do produto para o representante visualizar no momento da digitação.</p>
+<p><img alt="" src="../img/basico/img7.png" /></p>
+<p>Na a direita das informações do produto é permitido anexar uma imagem ao cadastro para facilitar a visualização no momento da digitação do pedido. </p>
+<h2 id="regioes">Regiões</h2>
+<p>Cadastro de regiões e relacionar representantes.</p>
+<p><img alt="" src="../img/basico/img8.png" /></p>
+<p>Informar uma descrição e relacionar a direita os representantes dessa região. Dessa forma o supervisor que terá permissão a essa região, irá conseguir visualizar as informações apenas desses representantes relacionados. </p>
+<h2 id="feriados">Feriados</h2>
+<p>Cadastro de feriados por estabelecimento.</p>
+<p><img alt="" src="../img/basico/img9.png" /></p>
+<p>O botão <strong>Gerar</strong> irá cadastrar automaticamente todos os principais feriados do ano. Já os feriados municipais\estaduais devem ser cadastrados manualmente. Esse cadastro será necessário para não interferir nas metas mensais dos representantes.</p>
+<h2 id="slide-show">Slide Show</h2>
+<p>Cadastro de banners para visualização na tela inicial - Dashboard.</p>
+<p><img alt="" src="../img/basico/img10.png" /></p>
+<p><strong>Obs:</strong> Recomendado utilizar imagens de 900 x 400 pixels.</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
