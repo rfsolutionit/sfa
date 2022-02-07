@@ -43,6 +43,10 @@ Nova opção disponível para os usuários supervisores onde é possível defini
 
 ![](./img/releases/1.0.2/img10.png)
 
+### Dias Minímo Entrega
+
+Nesta opção o usário poderá parametrizar os dias minímo de entrega por representate e estabelecer um horario limite. Caso o pedido seja implantado após o horário limite, será incrementado mais um dia na data de entrega.
+![](./img/releases/1.0.2/img13.png)
 ### Apresentação de Banners
 
 Desenvolvido tela para cadastrar banners para apresentação na tela inicial do portal de vendas.
