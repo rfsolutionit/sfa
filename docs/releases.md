@@ -46,7 +46,9 @@ Nova opção disponível para os usuários supervisores onde é possível defini
 ### Dias Minímo Entrega
 
 Nesta opção o usário poderá parametrizar os dias minímo de entrega por representate e estabelecer um horario limite. Caso o pedido seja implantado após o horário limite, será incrementado mais um dia na data de entrega.
+
 ![](./img/releases/1.0.2/img13.png)
+
 ### Apresentação de Banners
 
 Desenvolvido tela para cadastrar banners para apresentação na tela inicial do portal de vendas.
@@ -58,6 +60,32 @@ Desenvolvido tela para cadastrar banners para apresentação na tela inicial do 
 ![](./img/releases/1.0.2/img12.png)
 
 Utilizar imagens do tamanho recomendável (900x400 pixels) para melhor visualização.
+
+### Referências comerciais/bancárias
+
+Junto ao cadastro de pré-cliente, foi acrescentado uma nova aba para o representante digitar as refêrencias bancárias e/ou comerciais do cliente. 
+
+![](./img/releases/1.0.2/img14.png)
+
+### Anexar arquivos 
+
+Estará disponível para o representante anexar arquivos ao cadastro do pré-cliente. 
+
+Exemplos: imagens (jpg, jpeg, png), pdf, word, txt, rar, etc. 
+
+![](./img/releases/1.0.2/img15.png)
+
+Após concluído o cadastro, o setor comercial irá conseguir realizar o download desses arquivos para conferência, tela de integração de clientes. 
+
+### Consulta detalhada pré-cliente
+
+Na tela de consulta clientes, foi disponibilizado uma opção para consultar a ficha do pré-cliente de forma detalhada no sistema. 
+
+![](./img/releases/1.0.2/img16.png)
+
+Caso o cliente não possuir uma ficha no sistema, irá detalhar as informações base do cadastro do cliente. 
+
+**Obs:** O botão a esquerda destacado na imagem acima, listava todos os pedidos do cliente, essa funcionalidade será feita pelo botão a direita. 
 
 ## Versão 1.0.1
 ---
