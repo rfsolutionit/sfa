@@ -2,6 +2,29 @@
 
 Alterações técnicas, inovação e manutenção de rotinas do sistema SFA.
 
+## Versão 1.0.3
+
+### Tipo Visualização Itens
+Nova opção para que o representante possa escolher a forma de visualização dos itens durante a digitação de pedidos.
+
+![](./img/releases/1.0.3/img1.png)
+
+**Opções**
+
+* `Imagem` - Visualização da lista de itens com as imagens cadastradas.
+![](./img/releases/1.0.3/img3.png)
+
+* `Lista` - Visualização na forma de listagem dos itens. 
+![](./img/releases/1.0.3/img2.png)
+
+### Desconto Por Familia
+Foi disponibilizado um novo botão onde é possivel visualizar o total de itens digitado por familia comercial.
+Nesta opção também poderá ser aplicado um desconto de adordo com os seguintes critérios: Cliente, Familia Comercial, Quantidade Miníma e percentual de desconto.
+
+![](./img/releases/1.0.3/img4.png)
+
+**ATENÇÃO:** Caso seja aplicado o desconto e posteriormente o usuário exclua algum item, os descontos por familia, serão desfeitos e o usuário deverá realizar o procedimento de desoncto novamente.
+
 ## Versão 1.0.2
 ---
 ### Clientes Atendidos
