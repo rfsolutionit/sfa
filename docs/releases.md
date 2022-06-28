@@ -2,6 +2,23 @@
 
 Alterações técnicas, inovação e manutenção de rotinas do sistema SFA.
 
+## Versão 1.0.4
+
+### Parâmetro dias minimos cancelamento
+
+Disponibilizado parâmetro nas configurações do sistema, para informar o prazo minímo permitido para cancelamento de pedidos no sistema Datasul.
+
+![](./img/releases/1.0.4/img1.png)
+
+### Cancelar Pedidos
+
+No menu tarefas, foi disponibilizado uma opção para que o usuário possa solicitar o cancelamento de pedido no ERP.
+
+![](./img/releases/1.0.4/img2.png)
+
+* É necessário realizar a liberação de permissão para o usuário;
+* Só será permitido realizar cancelamento de pedidos "Abertos" no ERP;
+
 ## Versão 1.0.3
 
 ### Tipo Visualização Itens
