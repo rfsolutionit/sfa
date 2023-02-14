@@ -98,10 +98,12 @@ Cadastro de representantes e parametrizações.
 * `Edita Tipo Frete` - Ao marcar o representante irá conseguir alterar o tipo de frete do pedido digitado se será CIF ou FOB.
 
 **Obs:** Caso desmarcado essas opções o pedido buscará as informações de acordo com o cliente selecionado na digitação do pedido.
-
+* `Edita Possui Bonificação` - Ao marcar o representante irá conseguir alterar o campo Possui Bonificação no pedido de venda.
 * `Avalia Crédito` - Ao marcar todos os pedidos que o representante digitar, o sistema irá validar se o cliente tem limite de crédito para o total do pedido digitado.
 * `Lista Todos Clientes` - Ao marcar, na tela de digitação de pedidos irá listar todos os clientes na seleção de cliente, caso desmarcado o mesmo será limitado a visualização em 100 clientes. Porém, não impede do representante utilizar o autocomplete.
 * `Visualiza Previsão` - Ao marcar, permite visualizar a data de previsão do faturamento do pedido.
+* `Dias Min Entrega` - Nesta opção o usário poderá parametrizar os dias minímo de entrega por representate e estabelecer um horario limite. Caso o pedido seja implantado após o horário limite, será incrementado mais um dia na data de entrega.
+* `Horário Limite` - Horario limite para implantação de pedido.
 * `Válida Mínimo Pedido` - Ao marcar o sistema irá validar o valor total do pedido mínimo parametrizado por estabelecimento, se caso tiver abaixo o sistema não permitirá sincronizar o pedido. 
 
 Na aba **Tipo Operações** abaixo, o usuário conseguirá selecionar as operações permitidas para o representante digitar o pedido.  

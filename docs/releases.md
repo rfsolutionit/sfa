@@ -2,6 +2,16 @@
 
 Alterações técnicas, inovação e manutenção de rotinas do sistema SFA.
 
+## Versão 1.0.5
+
+### Edita Possui Bonificação Pedido
+
+Nova opção disponível para que possa definir se o vendedor poderá marcar a opção para informar se o pedido possui bonificação.
+
+![](./img/releases/1.0.5/img1.png)
+
+![](./img/releases/1.0.5/img2.png)
+
 ## Versão 1.0.4
 
 ### Parâmetro dias minimos cancelamento
