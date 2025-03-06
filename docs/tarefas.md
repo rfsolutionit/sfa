@@ -38,3 +38,11 @@ Ao clicar sobre a imagem abrirá uma tela para o representante informar a quanti
 Ao terminar de incluir os itens do pedido, o representante deve sincronizar o pedido na qual será disponibilizado para o comercial faturar. 
 
 ![](./img/tarefas/img6.png)
+
+## Pendências Aprovação
+
+Tela de pendências de aprovação, lista de pedidos pendentes de aprovação.
+
+![](./img/tarefas/img7.png)
+
+Usuário aprovador pode visualizar os pedidos pendentes de aprovação, aprovar ou rejeitar o pedido, caso faça parte do grupo de aprovação.de aprovação.

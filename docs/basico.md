@@ -39,7 +39,8 @@ Essa função tem como caracteristica cadastrar, alterar ou inativar usuários.
     - Integrar Clientes
     - Consulta Clientes
     - Acompanhamento Vendas
-    - Pendências Financeiras    
+    - Pendências Financeiras   
+    - Pendência Aprovação 
 3. Permissões Regiões:
     - Na opção Regiões, possibilita o usuário selecionar as regiões que o usuário irá ter permissões.
 4. Mensagem Reprovação:
@@ -81,6 +82,7 @@ Cadastro de estabelecimentos e parametrizações.
 * `E-mails Solicitação Cli x Rep` -  E-mails da equipe do comercial da empresa, na qual receberão solicitações em sua caixa de e-mails sobre solicitações de novos clientes para os representantes no sistema. (Separado por ponto e vírgula, caso tiver mais de um)
 * `Param Integração` - Token de acesso para sistema externo. 
 * `Valida Dt Sinc` - Caso marcado, o sistema irá validar a data de sincronização do pedido, não permitindo sincronizar pedidos com datas anteriores a atual.
+* `Valida Fluxo Aprovações` - Caso marcado, o sistema irá validar se o fluxo de aprovações está configurado para o estabelecimento.
 * `Não Entrega` - Ao marcar o flag será restringido o dia da semana marcado para que o representante não consiga sincronizar o pedido em tal data de entrega no portal. 
 
 ## Representantes
@@ -141,3 +143,20 @@ Cadastro de banners para visualização na tela inicial - Dashboard.
 ![](./img/basico/img10.png)
 
 **Obs:** Recomendado utilizar imagens de 900 x 400 pixels.
+
+## Grupo Aprovação
+
+Cadastro de grupos de aprovação por estabelecimento.
+
+![](./img/basico/img11.png)
+
+**Principais Campos e Parâmetros:**
+
+* `Nome` - Nome do grupo de aprovação.
+* `Estabelecimento` - Estabelecimento do grupo de aprovação.
+* `Tipo Aprovação` - Tipos de aprovação que o grupo irá realizar, sendo eles:
+* Pedido - Relacionado a grupos de aprovações comerciais de pedidos de venda.
+* Cliente - Relacionado a grupos de aprovações de pré clientes.
+* Crédito - Relacionado a grupos de aprovações de pré clientes.
+
+Na aba `Usuários` é possível relacionar os usuários que irão fazer parte desse grupo de aprovação.

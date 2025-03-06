@@ -10,7 +10,8 @@ nav:
   - Básico: basico.md    
   - Cadastros: cadastros.md
   - Tarefas: tarefas.md  
-  - Consultas: consultas.md  
+  - Consultas: consultas.md
+  - Aplicativo: aplicativo.md  
   - Sobre:
     - Releases Notes: releases.md
 theme: flatly

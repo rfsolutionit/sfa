@@ -2,6 +2,20 @@
 
 Alterações técnicas, inovação e manutenção de rotinas do sistema SFA.
 
+## Versão 1.0.6
+
+### Fluxo de Aprovação
+
+Nova técnica implementada para aprovação de pedidos caso o valor do pedido seja abaixo da tabela de preço ou for uma bonificação.
+
+Segue abaixo o fluxo de aprovação para a técnica implementada:
+
+* [Cadastro Grupo Aprovação](basico.md/#grupo-aprovacao)
+* [Parâmetro Valida Fluxo Aprovações](basico.md/#estabelecimento)
+* [Parâmetro Pendência Aprovação](basico.md/#usuarios)
+* [Pendências Aprovação](tarefas.md/#pendencias-aprovacao)
+
+
 ## Versão 1.0.5
 
 ### Edita Possui Bonificação Pedido
