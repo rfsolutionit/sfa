@@ -132,6 +132,10 @@
               <ul class="nav flex-column">
               </ul>
             </li>
+            <li class="nav-item" data-bs-level="2"><a href="#grupo-aprovacao" class="nav-link">Grupo Aprovação</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
               </ul>
             </li>
         </ul>
@@ -181,7 +185,8 @@
 <li>Integrar Clientes</li>
 <li>Consulta Clientes</li>
 <li>Acompanhamento Vendas</li>
-<li>Pendências Financeiras    </li>
+<li>Pendências Financeiras   </li>
+<li>Pendência Aprovação </li>
 </ul>
 </li>
 <li>Permissões Regiões:<ul>
@@ -222,6 +227,7 @@
 <li><code>E-mails Solicitação Cli x Rep</code> -  E-mails da equipe do comercial da empresa, na qual receberão solicitações em sua caixa de e-mails sobre solicitações de novos clientes para os representantes no sistema. (Separado por ponto e vírgula, caso tiver mais de um)</li>
 <li><code>Param Integração</code> - Token de acesso para sistema externo. </li>
 <li><code>Valida Dt Sinc</code> - Caso marcado, o sistema irá validar a data de sincronização do pedido, não permitindo sincronizar pedidos com datas anteriores a atual.</li>
+<li><code>Valida Fluxo Aprovações</code> - Caso marcado, o sistema irá validar se o fluxo de aprovações está configurado para o estabelecimento.</li>
 <li><code>Não Entrega</code> - Ao marcar o flag será restringido o dia da semana marcado para que o representante não consiga sincronizar o pedido em tal data de entrega no portal. </li>
 </ul>
 <h2 id="representantes">Representantes</h2>
@@ -260,7 +266,20 @@
 <h2 id="slide-show">Slide Show</h2>
 <p>Cadastro de banners para visualização na tela inicial - Dashboard.</p>
 <p><img alt="" src="../img/basico/img10.png" /></p>
-<p><strong>Obs:</strong> Recomendado utilizar imagens de 900 x 400 pixels.</p></div>
+<p><strong>Obs:</strong> Recomendado utilizar imagens de 900 x 400 pixels.</p>
+<h2 id="grupo-aprovacao">Grupo Aprovação</h2>
+<p>Cadastro de grupos de aprovação por estabelecimento.</p>
+<p><img alt="" src="../img/basico/img11.png" /></p>
+<p><strong>Principais Campos e Parâmetros:</strong></p>
+<ul>
+<li><code>Nome</code> - Nome do grupo de aprovação.</li>
+<li><code>Estabelecimento</code> - Estabelecimento do grupo de aprovação.</li>
+<li><code>Tipo Aprovação</code> - Tipos de aprovação que o grupo irá realizar, sendo eles:</li>
+<li>Pedido - Relacionado a grupos de aprovações comerciais de pedidos de venda.</li>
+<li>Cliente - Relacionado a grupos de aprovações de pré clientes.</li>
+<li>Crédito - Relacionado a grupos de aprovações de pré clientes.</li>
+</ul>
+<p>Na aba <code>Usuários</code> é possível relacionar os usuários que irão fazer parte desse grupo de aprovação.</p></div>
             </div>
         </div>
 
