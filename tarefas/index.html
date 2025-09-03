@@ -108,6 +108,14 @@
               <ul class="nav flex-column">
               </ul>
             </li>
+            <li class="nav-item" data-bs-level="2"><a href="#aplicar-campanhas-pedido" class="nav-link">Aplicar Campanhas Pedido</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#aplicar-desconto-flex" class="nav-link">Aplicar Desconto Flex</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
               </ul>
             </li>
         </ul>
@@ -143,7 +151,57 @@
 <h2 id="pendencias-aprovacao">Pendências Aprovação</h2>
 <p>Tela de pendências de aprovação, lista de pedidos pendentes de aprovação.</p>
 <p><img alt="" src="../img/tarefas/img7.png" /></p>
-<p>Usuário aprovador pode visualizar os pedidos pendentes de aprovação, aprovar ou rejeitar o pedido, caso faça parte do grupo de aprovação.de aprovação.</p></div>
+<p>Usuário aprovador pode visualizar os pedidos pendentes de aprovação, aprovar ou rejeitar o pedido, caso faça parte do grupo de aprovação.de aprovação.</p>
+<h2 id="aplicar-campanhas-pedido">Aplicar Campanhas Pedido</h2>
+<p>Na opção demarcada abaixo, é possivel realizar a verificação dos itens que possuem campanhas ativas que possam ser aplicadas as pedido de venda:</p>
+<p><img alt="" src="../img/tarefas/img8.png" /></p>
+<p>Após clicar no botão para aplicar campanhas, será apresentado um icone demonstrando os itens que foram gerados campanha.</p>
+<p>Na janela ao lado, no detalhamento do item, também será possivel verificar de forma detalhada qual tipo de desoncto foi aplicado para o item.</p>
+<ul>
+<li>Para campanhas de bonificação, será gerado um pedido de bonificação após a sincronização do pedido de venda principal.</li>
+</ul>
+<h2 id="aplicar-desconto-flex">Aplicar Desconto Flex</h2>
+<p>Na opção indicada abaixo, indica que o item possui permissão para implantar desconto Flex. Ao clicar nesse botão será aberto uma janela que possibilitara ao vendedor informar um desconto flex para o item.</p>
+<p><img alt="" src="../img/tarefas/img9.png" /></p>
+<ul>
+<li>O desconto flex só será permitido caso o representante possua saldo Flex Disponível.</li>
+</ul>
+<p>Quando o profissional realiza a venda de um produto utilizando um preço de venda superior ao preço de tabela, é gerado no SFA um lançamento positivo (crédito) na sua conta corrente, que inicialmente não estará liberado para utilização. O processamento e liberação desse crédito somente será realizado quando o pedido exportado ao ERP retornar ao SFA com a informação de faturamento dos itens do pedido, onde a liberação do crédito será proporcional a quantidade faturada do item que a gerou. Caso o item gerador do crédito tenha sofrido corte integral do pedido, o crédito será cancelado. 
+Quando o profissional realiza a venda de um produto utilizando um preço de venda inferior ao preço de tabela, é gerado no SFA um lançamento negativo (débito) na sua conta corrente, que é processado no momento da realização da venda no SFA, consumindo imediatamente o valor do saldo do Representante. 
+O cálculo do valor do flex é composto conforme fórmula abaixo: 
+valor_flex_produto = (preço de venda – preço tabela) x quantidade vendida </p>
+<p>Exemplo: 
+O vendedor Emerson tem saldo flex igual a R$100,00 e realizou a seguinte venda:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Produto</th>
+<th style="text-align: right;">Qtde Venda</th>
+<th style="text-align: right;">Preço Tab</th>
+<th style="text-align: right;">Preço Venda</th>
+<th style="text-align: right;">Total</th>
+<th style="text-align: right;">Lancto Conta Flex</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Produto A</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">R$10,00</td>
+<td style="text-align: right;">R$8,00</td>
+<td style="text-align: right;">R$80,00</td>
+<td style="text-align: right;">-R$20,00</td>
+</tr>
+<tr>
+<td style="text-align: left;">Produto B</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">R$15,00</td>
+<td style="text-align: right;">R$18,00</td>
+<td style="text-align: right;">R$360,00</td>
+<td style="text-align: right;">+R$60,00</td>
+</tr>
+</tbody>
+</table></div>
             </div>
         </div>
 
