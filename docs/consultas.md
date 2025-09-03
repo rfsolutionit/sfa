@@ -41,3 +41,15 @@ Permite o representante visualizar as pendências financeiras de seus clientes.
 Permite o representante visualizar as notas fiscais faturadas de seus pedidos. 
 
 ![](./img/consultas/img6.png)
+
+## Saldo Estoque
+
+Permite o representante visualizar o saldo em estoque dos itens.
+
+![](./img/consultas/img7.png)
+
+## Movimentos Conta Flex
+
+Permite o representante visualizar os movimentos da sua conta flex.
+
+![](./img/consultas/img8.png)

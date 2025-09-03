@@ -160,3 +160,93 @@ Cadastro de grupos de aprovação por estabelecimento.
 * Crédito - Relacionado a grupos de aprovações de pré clientes.
 
 Na aba `Usuários` é possível relacionar os usuários que irão fazer parte desse grupo de aprovação.
+
+## Campanhas
+
+Cadastro de campanhas.
+
+![](./img/basico/img12.png)
+
+**Principais Campos e Parâmetros:**
+
+* `Nome` - Nome da campanha.
+* `Estado` - Estado da campanha.
+* `Data Início` - Informar a data inicial da campanha.
+* `Data Fim` - Informar a data final da campanha.
+
+Regras da campanha.
+
+![](./img/basico/img13.png)
+
+**Principais Campos e Parâmetros:**
+
+* `Botão regras da campanha` - Botão para ir para as regras da campanha.
+
+Cadastro de regras da campanha.
+
+![](./img/basico/img14.png)
+
+**Principais Campos e Parâmetros:**
+
+* `Nome` - Nome da campanha.
+* `Tipo Beneficio` - Informar o tipo do benefício da campanha.
+    - Desconto
+    - Bonificação
+* `Tipo Aplicação` - Informar o tipo da Aplicação.
+    -Percentual
+    -Preço Fixo 
+* `Unidade` - Informar a unidade do benefício.
+    -Quantidade
+    -Peso Item
+* `Quantidade Miníma` - Informar a quantidade minima do produto.
+* `% Desconto` - Informar o percentual de desconto ou bonificação, caso o **Tipo Aplicação** seja percentual.
+* `Preço Fixo` - Informar o preço fixo, caso o **Tipo Aplicação** seja preço fixo.
+
+Produtos:
+
+* `Tabela de Preço` - Selecionar a tabela de preço.
+* `Família Comercial` - Selecionar a Família Comercial.
+
+
+* Por fim mover os produtos que deverão receber o benefício da campanha.
+
+
+## Tipo Família
+
+Tipos Família.
+
+![](./img/basico/img15.png)
+
+**Neste modulo será exibido os tipos família de produtos.**
+
+
+## Linha Produto
+
+Linhas Produto.
+
+![](./img/basico/img16.png)
+
+**Neste modulo será exibido os tipos família de produtos.**
+
+## Conta Flex
+
+Conta Flex Representante.
+
+![](./img/basico/img18.png)
+
+**Principais Campos e Parâmetros:**
+
+* `Representante` - Informar o representante para conta flex.
+* `Data início` - Informar a data início de vigência da conta flex.
+* `Data fim` - Informar a data fim de vigência da conta flex.
+
+Na tela abaixo será possivel detalhar e realizar lançamentos na conta flex:
+
+![](./img/basico/img19.png)   
+
+**Botões:**
+
+* `Lançamento` - Permite realizar lançamentos manuais de crédito ou débito para a conta flex.
+* `Recalcular` - Permite recalcular os lançamentos realizados na conta.
+* `Atualizar` - Atualiza o filtro de consulta.
+* `Voltar` - Volta para tela de cadastro de conta flex.

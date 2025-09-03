@@ -2,6 +2,50 @@
 
 Alterações técnicas, inovação e manutenção de rotinas do sistema SFA.
 
+## Versão 1.0.8
+
+### Conta Corrente Flex
+
+Nova funcionalidade para cadastro de conta corrente Flex dos representantes
+
+Segue abaixo as principais rotinas disponibilizadas:
+
+* [Cadastro Conta Flex](basico.md/#conta-flex)
+* [Aplicar Desconto Flex](tarefas.md/#aplicar-desconto-flex)
+* [Consulta Movimentos Conta Flex](consultas.md/#movimentos-conta-flex)
+
+## Versão 1.0.7
+
+### Campanhas
+
+Nova funcionalidade para cadastro de campanhas de desconto.
+
+Segue abaixo as principais rotinas disponibilizadas:
+
+* [Cadastro Campanha](basico.md/#campanhas)
+* [Aplicar Campanha](tarefas.md/#aplicar-campanhas-pedido)
+
+### Grupo de Itens
+
+Foram disponibilizadas novos grupos de cadastros de itens para tratamento de pedidos mínimos.
+
+Segue abaixo as principais funcionalidades:
+
+* [Tipo Familia](basico.md/#tipo-família)
+* [Linha Produto](basico.md/#linha-produto)
+
+### Saldo Estoque
+
+Disponibilizado consulta de saldo estoque:
+
+* [Saldo Estoque](consultas.md/#saldo-estoque)
+
+### Estabelecimento x Itens
+
+Disponibilizado nova funcionalidade para restringir acesso ao itens durante a digitação de pedidos por estabelecimento
+
+![](./img/basico/img17.png)
+
 ## Versão 1.0.6
 
 ### Fluxo de Aprovação
