@@ -1,6 +1,12 @@
 # Alterações
 
 Alterações técnicas, inovação e manutenção de rotinas do sistema SFA.
+## Versão 1.0.9
+
+Segue abaixo as principais rotinas disponibilizadas na release:
+
+* [Dashboard Cliente](consultas.md/#dashboard-cliente)
+* [Pesquisa Global](consultas.md/#pesquisa-global)
 
 ## Versão 1.0.8
 

@@ -53,3 +53,40 @@ Permite o representante visualizar o saldo em estoque dos itens.
 Permite o representante visualizar os movimentos da sua conta flex.
 
 ![](./img/consultas/img8.png)
+
+## Dashboard Cliente
+
+Permite realizar um consulta detalhada das informações do cliente.
+
+![](./img/consultas/img9.png)
+
+* `Ultimo Pedido:` Listagem dos pedidos do cliente;
+* `Nota Fiscal:` Listagem das notas fiscais do cliente;
+* `Duplicatas:` Listagem das duplicatas do cliente;
+* `Itens + Vendido:` Listagem dos itens mais vendidos por quantidade;
+
+## Pesquisa Global
+
+Permite realizar pesquisas globais no portal.
+
+![](./img/consultas/img10.png)
+
+Neste campo o usuário poderá informar uma pesquisa de clientes ou pedidos, podendo informar apenas qualquer informação, tais como:
+
+* CNPJ/CPF do cliente;
+* Razão Social do cliente;
+* Código do Cliente
+* Numero do pedido do Cliente;
+
+Abaixo o resultado a partir da informação pesquisada:
+
+![](./img/consultas/img11.png)
+
+Ao clicar no botão do resulta, será possivel realizar um detalhamento do cliente ou pedido:
+
+* Detalhamento cliente:
+![](./img/consultas/img9.png)
+
+* Detalhamento Pedido:
+![](./img/consultas/img12.png)
+
